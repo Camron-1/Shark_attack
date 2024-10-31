@@ -75,31 +75,20 @@ article{
 }
 
 
-.hover_info {
-    display: none; 
-    position: absolute;
-    color:white;
-    margin-left: 233px; 
+.dropdown_menu{
+    display:none
 }
-
-
-
-.ways_to_give:hover .hover_info
- {
-    display: block;
+.dropdown_menu2{
+    display:none
 }
+.menu-container ul li:hover .dropdown_menu2{
+    display:block;
+   margin-left:205px;
+margin-bottom: 8px;
+position:absolute;}
 
+.menu-container ul li:hover .dropdown_menu{
+    display:block;
+   margin-left:495px;
+margin-bottom: 8px;}
 
-.contact_hover{
-    display: none; 
-    position: absolute;
-    color:white;
-    margin-left: 480px; 
-}
-
-
-
-.contact_insta:hover .contact_hover
- {
-    display: block;
-}

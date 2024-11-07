@@ -1,0 +1,54 @@
+body{
+    background-color: lightblue;
+    
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+}
+ul{
+    list-style: none;
+    color:white
+    
+}
+p{
+    color:white
+}
+.box{
+    flex-direction: column;
+    width:150px
+}
+#cancel{
+margin-left: 55px;
+margin-top: -22px;
+display:flex
+}
+.guest{
+    float:right;
+    margin-top: -150px;
+    margin-right:50px
+}
+.movedown{
+    margin-top: 40px;
+}
+img {
+    width: 150px;
+    height:118px;
+    border-radius: 25px;
+    display: block;}
+    footer{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        }
+        
+        footer a img{
+        width: 50px;
+        margin-top: 10px;
+       margin-left: 700px;
+       height:35px
+        }
+        fieldset{width:50px;
+            border: 2px solid black;
+        background-color: grey;}

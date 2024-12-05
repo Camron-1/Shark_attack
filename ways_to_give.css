@@ -7,14 +7,6 @@ body {
     background-image: url(turtle.jpeg);
 }
 
-img {
-width: 150px;
-height:118px;
-border-radius: 25px;
-display: block;
-box-shadow: 4px 4px 4px  rgba(177, 5, 5, 0.924);
-}
-
 /* Header Styling */
 header {
     font-family: Arial, sans-serif;
@@ -77,8 +69,9 @@ header a:hover{
 
 .menu-container ul li:hover .dropdown_menu{
     display:block;
-    margin-left:495px;
+    margin-left:0px;
     margin-bottom: 8px;
+    position: absolute;
 }
 
 .cover{
@@ -91,6 +84,7 @@ h1{
     color: rgb(209, 4, 4);
     text-align: center;
     margin-top: -80px;
+
 }
 
 .turtle p{
@@ -98,6 +92,7 @@ h1{
     text-wrap: wrap;
     font-size: 20pt;
     margin-top: -15px;
+
 }
 
 /* Article Styling */
@@ -161,6 +156,7 @@ footer p{
     border: 2pt solid black;
     margin-left: -10px;
 }
+
 .donators{
     font-size: 15pt;
 }

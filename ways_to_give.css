@@ -21,6 +21,12 @@ header {
     z-index: 1;
 }
 
+header img {
+    width: 150px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
 header ul {
     list-style: none;
     display: flex;
@@ -78,6 +84,15 @@ h1{
     color: rgb(209, 4, 4);
     text-align: center;
     margin-top: -80px;
+
+}
+
+.turtle p{
+    color: white;
+    text-wrap: wrap;
+    font-size: 20pt;
+    margin-top: -15px;
+
 }
 
 /* Article Styling */
@@ -118,6 +133,11 @@ footer img{
     margin-bottom: 20px;
     margin-left: -25px;
 }
+
+footer a img{
+    width: 50px;
+    margin-top: 10px;
+ }
 
 footer a{
     color: rgb(209, 4, 4)

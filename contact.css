@@ -153,19 +153,24 @@ h2{
     object-fit: cover; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 10px;
+    margin-top: 10px;}
 
 article h1 {
-    font-size: 2em;
-    color: rgb(34, 94, 168);
+    font-size: 1.3em;
+    color: rgb(209, 4, 4);
     text-align: center;
     margin-bottom: 20px;}
-}
+
+    .shark_attack{
+        font-size: 1.5em;
+    }
+
 
 article h2 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: rgb(209, 4, 4);
     margin: 20px 0;
+    text-align: center;
 }
 
 article h3 {
@@ -186,7 +191,6 @@ footer {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     text-align: center;
-    border-top: 4px solid rgb(209, 4, 4);
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 
     margin: 20px auto;

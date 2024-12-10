@@ -6,7 +6,7 @@ body {
     background-image: url(background2.png);
     background-size: cover;
     background-repeat: no-repeat; 
-    height: 300vh;
+    height: auto;
 }
     
     /* Article Styling with Overlay Image */
@@ -27,7 +27,6 @@ body {
     /* Overlay Image */
     article::before {
     content: "";
-    background-image: url(otter.jpeg);
     background-size: cover;
     background-position: center;
     opacity: 0.3; 
@@ -40,18 +39,13 @@ body {
     z-index: -1; 
     }
     
-    /* Headings within the article */
+/* Headings within the article */
 h1{
     color: rgb(209, 4, 4);
     text-align: center;
+    font-size: 2em;
 }
-    article h2 {
-    color: rgb(209, 4, 4);
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    border-bottom: 2px solid rgb(209, 4, 4);
-    padding-bottom: 5px;
-    }
+   
 
    header {
     font-family: Arial, sans-serif;
@@ -81,6 +75,7 @@ header ul {
     padding: 0;
 }
 
+
 header a {
     color: rgb(209, 4, 4);
     text-decoration: none;
@@ -98,11 +93,19 @@ header a:hover{
     color: rgb(209, 4, 4);
     border-bottom: 2px solid rgb(209, 4, 4);
  }
+
  .dropdown_menu{
     display:none
 }
+
 .dropdown_menu2{
     display:none
+}
+
+.menu-container ul li:hover .dropdown_menu2{
+    display:block;
+    margin-bottom: 8px;
+    position:absolute;
 }
 
 .menu-container ul li:hover .dropdown_menu{
@@ -112,7 +115,13 @@ header a:hover{
     position:absolute;
 }
 
-   
+.dropdown_menu2.second {
+    top: 95%; 
+    left: 407px;
+    font-size: 1.1em;
+    color: rgb(209, 4, 4);
+}
+    
     /* Paragraph Styling */
     article p {
     margin: 10px 0;
@@ -176,23 +185,30 @@ footer a img{
  footer p{
     margin: 10px 0;
  }
+
+ .pictures{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+ }
     
     .camron > img{
         height:150px;
         border-style: solid;
-        border-color: black
+        border-color: black;
     }
+
     .Ana > img{
         height:150px;
         margin-top:15px;
         border-style: solid;
-        border-color: black
+        border-color: black;
     }
     .Riley > img{
         height:150px;
         margin-top: 50px;
         border-style: solid;
-        border-color: black
+        border-color: black;
     }
     
     .Riley_text{

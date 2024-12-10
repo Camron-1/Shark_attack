@@ -7,16 +7,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center; 
-    height: 220vh;
+    height: auto;
 }
 
 /* Header Styling */
-h1, h2, p{
-    margin: 0;
-    padding: 10px 0;
-}
-
-header{
+header {
     font-family: Arial, sans-serif;
     position: relative;
     background-color: rgba(255, 255, 255, 0.9);
@@ -29,12 +24,12 @@ header{
     z-index: 1;
 }
 
-.dropdown_menu {
-    display: none;
+.dropdown_menu{
+    display:none
 }
 
-.dropdown_menu2 {
-    display: none;
+.dropdown_menu2{
+    display:none
 }
 
 .menu-container ul li:hover .dropdown_menu2{
@@ -62,18 +57,6 @@ header img {
     margin: 0 auto 15px;
 }
 
-header a {
-    color: rgb(209, 4, 4);
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-header a:hover{
-    color: rgb(209, 4, 4);
-    border-bottom: 2px solid rgb(209, 4, 4);
- }
-
 header ul {
     list-style: none;
     display: flex;
@@ -82,11 +65,31 @@ header ul {
     padding: 0;
 }
 
+header a {
+    color: rgb(209, 4, 4);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
 header ul li{
     display: inline;
     margin-right: 20px;
     font-size: 1.2em;
 }
+
+header a:hover{
+    color: rgb(209, 4, 4);
+    border-bottom: 2px solid rgb(209, 4, 4);
+ }
+
+ .dropdown_menu2.second {
+    top: 95%; 
+    left: 407px;
+    font-size: 1.1em;
+    color: rgb(209, 4, 4);
+}
+ 
 
 /* Article Styling */
 article {
@@ -101,23 +104,6 @@ article {
     line-height: 1.8;
     color: #333;
     font-size: 1.1em;
-}
-
-article h2{
-    font-size: 2em;
-    color: white;
-}
-article ol{
-    margin-left: 20px;
-}
-article ol li{
-    margin-bottom: 15px;
-}
-article ul{
-    margin-left: 20px;
-}
-article ul li{
-    margin-bottom: 10px;
 }
 
 /* Footer Styling */
@@ -135,41 +121,21 @@ footer {
     max-width: 900px;
 } 
 
- footer p{
-    margin: 10px 0;
- }
-
 footer a{
     color: rgb(209, 4, 4)
 }
 
-footer a img {
+footer a img{
     width: 50px;
     margin-top: 10px;
-}
-
-a {
-    color: #007BFF; /* Blue */
-    text-decoration: none;
-}
-
-
-a:hover {
-    color: #FF0000; /* Red */
-    text-decoration: underline;
-}
-
-@media screen and (max-width: 768px) {
+ }
+ footer p{
+    margin: 10px 0;
+ }
+ 
+ @media screen and (max-width: 768px) {
     header img {
         width: 250px;
         height: 150px;
     }
-}
-
-footer p, footer a {
-    font-size: 0.9em;
-    color: rgb(209, 4, 4);
-    text-decoration: none;
-    margin: 10px 0;
-}
-
+ }

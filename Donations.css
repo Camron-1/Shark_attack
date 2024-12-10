@@ -31,11 +31,6 @@ header {
     height:200px
 }
 
-h1, h2, p{
-    margin: 0;
-    padding: 10px 0;
-}
-
 .dropdown_menu{
     display:none
 }

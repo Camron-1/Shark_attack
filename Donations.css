@@ -243,3 +243,29 @@ footer a img{
         height: auto;
     }
 }
+#mail {
+    width: 200px;
+    height:10px
+}
+
+#fname {
+    width: 200px; 
+    height:3px
+
+}
+
+#lname {
+    width: 200px; 
+    height:3px
+}
+
+#street {
+    width: 200px; 
+    height:3px
+
+}
+#city{
+    width:200px;
+    height:3px
+
+}

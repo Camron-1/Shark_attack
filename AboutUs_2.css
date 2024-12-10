@@ -55,6 +55,7 @@ h1{
     border-radius: 10px;
     width: 90%;
     max-width: 900px;
+    height:200px;
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -106,6 +107,9 @@ header a:hover{
     display:block;
     margin-bottom: 8px;
     position:absolute;
+    
+    
+  
 }
 
 .menu-container ul li:hover .dropdown_menu{
@@ -113,6 +117,7 @@ header a:hover{
     margin-left:0px;
     margin-bottom: 8px;
     position:absolute;
+   
 }
 
 .dropdown_menu2.second {
@@ -144,6 +149,7 @@ header a:hover{
     article img {
     max-width: 100%;
     height: auto;
+   
     border-radius: 5px;
     margin: 10px 0;
     }
@@ -192,7 +198,7 @@ footer a img{
     align-items: center;
  }
     
-    .camron > img{
+    .camron img{
         height:150px;
         border-style: solid;
         border-color: black;

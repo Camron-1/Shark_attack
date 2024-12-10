@@ -23,6 +23,7 @@ header {
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    height:200px
 }
 
 h1{

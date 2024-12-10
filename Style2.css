@@ -21,11 +21,6 @@ header {
     height:200px
 }
 
-h1, h2, p{
-    margin: 0;
-    padding: 10px 0;
-}
-
 .dropdown_menu{
     display:none
 }
@@ -93,8 +88,6 @@ header a:hover{
 }
 
  
-
-
 article {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(255, 255, 255, 0.9);
@@ -109,7 +102,7 @@ article {
     font-size: 1.1em;
 }
 
-
+/* Footer Styling */
 footer {
     font-family: Arial, sans-serif;
     font-size: 1.2em;
@@ -135,8 +128,6 @@ footer a img{
  footer p{
     margin: 10px 0;
  }
- 
-
 
 .video-background {
     position: fixed;

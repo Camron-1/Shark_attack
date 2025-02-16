@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <title>Donation Screen</title>
     <link rel="stylesheet" href="Donations.css">
-    <script src="donations.js"></script>
-    <script src="animals.js"></script>
+     <script src="donations.js"></script> 
+    <script src="animals.js"> </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -185,7 +185,7 @@
                     <input type="number" id="cvc" name="cvc" required>
                     <label>Pick your Animal</label>
                     <br>
-                    <select name="AquaticAnimal" id="AquaticAnimal">
+                    <select name="AquaticAnimal" id="AquaticAnimal" onchange="updateAnimalID()">
                         <option value="Shark">Shark</option>
                         <option value="Dolphin">Dolphin</option>
                         <option value="Whale">Whale</option>
@@ -215,15 +215,14 @@
                         <option value="HammerheadShark">Hammerhead Shark</option>
                         <option value="Orca" selected>Orca</option>
                     </select>
-                    <select name="gender" id="gender">
+                    <select name="gender" id="gender" onchange="updateAnimalID()">
                         <option value="male">male</option>
                         <option value="female">female</option>
                     </select>
 
                     <label for="animal_id">Animal ID:</label>
-                    <input type="text" id="animal_id" name="id" readonly />
+                    <input type="text" id="animal_id" name="id" readonly/>
                 
-                    <input type="submit" value="Submit">
 
 
                 </fieldset>
@@ -242,7 +241,7 @@
                         <label for="mailCB">Click me to get updates to our new events/accomplishments! </label>
                         <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
                     </div>
-                   <!-- This needs to be deleated to input the data into the base -->
+                    <button type="submit" onclick="donationnumber(); validateEmail()">Donate</button> <!-- This needs to be deleated to input the data into the base -->
 
                 </fieldset>
             </form>
@@ -258,11 +257,5 @@
             </a>
         </footer>
     </div>
-    <script>
-        function showThankYouMessage() {
-            alert("Thank you for donating");
-        }
-    </script>
 </body>
-
 </html>

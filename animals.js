@@ -31,16 +31,22 @@
 };
 
 function updateAnimalID() {  
-    
     const animal = document.getElementById("AquaticAnimal").value;
     const gender = document.getElementById("gender").value;
-    const animalID = animalGenderIDs[`${animal}-${gender}`] || "000"; // Default ID if not found
+    const animalID = animalGenderIDs[`${animal}-${gender}`]||"000"; // Default ID if not found
     document.getElementById("animal_id").value = animalID;
 }
 
+// document.getElementById("gender").addEventListener("change", function(event) {
+//     var animal = document.getElementById("AquaticAnimal").value;
+//     var gender = document.getElementById("gender").value;
+//     var animalID = animalGenderIDs[`${animal}-${gender}`]||"000"; // Default ID if not found
+//     document.getElementById("animal_id").value = animalID;   
+// });
 
-document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("AquaticAnimal").addEventListener("change", updateAnimalID);
-    document.getElementById("gender").addEventListener("change", updateAnimalID);
-});
-
+// document.getElementById("AquaticAnimal").addEventListener("change", function(event) {
+//     var animal = document.getElementById("AquaticAnimal").value;
+//     var gender = document.getElementById("gender").value;
+//     var animalID = animalGenderIDs[`${animal}-${gender}`]||"000"; // Default ID if not found
+//     document.getElementById("animal_id").value = animalID;    
+// });
